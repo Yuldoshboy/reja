@@ -23,19 +23,19 @@ app.set("view engine", "ejs");
 
 // 4-bosqich-----Routing code
 app.post("/create-item", (req, res) => {
-    console.log(req);
+    console.log(req.body);
     res.json({test: "Success!"});
 });
 app.get("/", function (req, res) {
     res.render("xarid");
 })
 
-// app.get("/hello", function(req, res) {
-//     res.end(`<h1 style="font-style:italic; background:green">Hello World by Jacob!</h1>`);
-// });
-// app.get("/gift", function(req, res) {
-//     res.end(`<h1 style="font-style:italic">Siz sovg'alar bo'limidasiz!</h1>`);
-// });
+app.get("/hello", function(req, res) {
+    res.end(`<h1 style="font-style:italic; background:green">Hello World by Jacob!</h1>`);
+});
+app.get("/gift", function(req, res) {
+    res.end(`<h1 style="font-style:italic">Siz sovg'alar bo'limidasiz!</h1>`);
+});
 const server = http.createServer(app);
 let PORT = 3000;
 server.listen(PORT, function () {
