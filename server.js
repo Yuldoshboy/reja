@@ -2,7 +2,7 @@ console.log("Web Serverni boshlash!");
 const http = require('http'); 
 // Installing and calling Express
 const express = require("express");
-
+const res = require("express/lib/response");
 const app = express(); //app bu yerda instance, bu esa expressning app objectini chaqiradi
 
 //Bosqichlar
@@ -15,20 +15,27 @@ app.use(express.json());         // kirib kelayotgan json datani object qilib be
 
 app.use(express.urlencoded({extended: true}));      // bu yerda esa express HTMLdan traditional form request orqali post qilingan narsalarni qabul qilib oladi aks holda qabul qilmaydi
 
-// 2-bosqich-----Sessionlarga bogliq narsalar yoziladi
+// 2-bosqich-----Sessionlarga bogliq narsalar yoziladi 
 // 3-bosqich------- Views code
 
 app.set("views", "views");
 app.set("view engine", "ejs");
 
 // 4-bosqich-----Routing code
+app.post("/create-item", (req, res) => {
+    console.log(req);
+    res.json({test: "Success!"});
+});
+app.get("/", function (req, res) {
+    res.render("xarid");
+})
 
-app.get("/hello", function(req, res) {
-    res.end(`<h1 style="font-style:italic; background:green">Hello World by Jacob!</h1>`);
-});
-app.get("/gift", function(req, res) {
-    res.end(`<h1 style="font-style:italic">Siz sovg'alar bo'limidasiz!</h1>`);
-});
+// app.get("/hello", function(req, res) {
+//     res.end(`<h1 style="font-style:italic; background:green">Hello World by Jacob!</h1>`);
+// });
+// app.get("/gift", function(req, res) {
+//     res.end(`<h1 style="font-style:italic">Siz sovg'alar bo'limidasiz!</h1>`);
+// });
 const server = http.createServer(app);
 let PORT = 3000;
 server.listen(PORT, function () {
