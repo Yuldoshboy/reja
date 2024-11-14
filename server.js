@@ -43,7 +43,6 @@ app.get("/author", (req, res) => {
 app.get("/", function (req, res) {
     res.render("xarid");
 });
-
 app.get("/", function (req, res) {
     res.render("xarid");
 })

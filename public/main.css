@@ -1,0 +1,508 @@
+.frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main_frame {
+    position: relative;
+    width: 1440px;
+    height: 1312px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.main_frame .left_frame {
+    position: relative;
+    width: 305px;
+    height: 1315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);}
+
+.main_frame .middle_frame {
+    position: relative;
+    width: 970px;
+    height: 1260px;
+    margin-left: 34px;
+    margin-right: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_frame .right_frame {
+    position: relative;
+    width: 108px;
+    height: 1315px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_frame .left_frame .left_1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 228px;
+    height: 267px;
+    left: 47px;
+    margin-top: 50px;
+}
+
+.main_frame .left_frame .marginer1 {
+    position: relative;
+    width: 220px;
+    height: 0;
+    left: 47px;
+    border: 1.5px solid rgb(240, 240, 246);
+}
+
+.main_frame .left_frame .left_2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 221px;
+    height: 126px;
+    left: 47px;
+}
+
+.main_frame .left_frame .marginer2 {
+    position: relative;
+    width: 220px;
+    height: 0;
+    left: 47px;
+    border: 1.5px solid rgb(240, 240, 246);
+}
+
+.main_frame .left_frame .left_3 {
+    position: relative;
+    width: 220px;
+    height: 153px;
+    left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+  .main_frame .left_frame .marginer3 {
+    position: relative;
+    width: 220px;
+    height: 0;
+    left: 47px;
+    border: 1.5px solid rgb(240, 240, 246);
+  }
+
+  .main_frame .left_frame .left_4 {
+    position: relative;
+    width: 220px;
+    height: 242px;
+    left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main_frame .left_frame .left_5 {
+    position: relative;
+    width: 186px;
+    height: 148px;
+    left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .main_frame .left_frame .left_1 .img {
+    width: 156px;
+    height: 142px;
+    background-image: url(./author/box_images/Profile.png);
+}
+
+.main_frame .left_frame .left_1 .info {
+    width: 66px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.main_frame .left_frame .left_1 .info .text_1 {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_1 .info .text_2 {   
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;  
+}
+
+.main_frame .left_frame .left_1 .socials {
+    position: relative;
+    width: 228px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+}
+
+.main_frame .left_frame .left_1 .socials .img_1 {
+    position: relative;
+    width: 24.99px;
+    height: 21.61px;
+    background-image: url(./author/box_images/Facebook.svg);
+}
+.main_frame .left_frame .left_1 .socials .img_2 {
+    position: relative;
+    width: 24.99px;
+    height: 21.61px;
+    background-image: url(./author/box_images/Instagram.svg);
+}
+.main_frame .left_frame .left_1 .socials .img_3 {
+    position: relative;
+    width: 24.99px;
+    height: 21.61px;
+    background-image: url(./author/box_images/Linkeding.svg);
+}
+.main_frame .left_frame .left_1 .socials .img_4 {
+    position: relative;
+    width: 24.99px;
+    height: 21.61px;
+    background-image: url(./author/box_images/Twitter.svg);
+}
+.main_frame .left_frame .left_1 .socials .img_5 {
+    position: relative;
+    width: 24.99px;
+    height: 21.61px;
+    background-image: url(./author/box_images/Youtube.svg);
+}
+.main_frame .left_frame .left_1 .socials .img_6 {
+    position: relative;
+    width: 29.99px;
+    height: 21.61px;
+    background-image: url(./author/box_images/Dribbble.svg);
+}
+
+.main_frame .left_frame .left_2 .text1 {
+    position: relative;
+    width: 221px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_2 .text1 span {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_2 .text1 .span1 {
+    background: rgb(255, 180, 0);
+}
+.main_frame .left_frame .left_2 .text2 .span2 {
+    background: rgb(255, 180, 0);
+}
+.main_frame .left_frame .left_2 .text3 .span3 {
+    background: rgb(255, 180, 0);
+}
+.main_frame .left_frame .left_2 .text4 .span4 {
+    background: rgb(255, 180, 0);
+}
+.main_frame .left_frame .left_2 .text2 {
+    position: relative;
+    width: 221px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_2 .text2 span {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_2 .text3 {
+    position: relative;
+    width: 221px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_2 .text3 span {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_2 .text4 {
+    position: relative;
+    width: 221px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_2 .text4 span {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_3 .lang {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_3 .lang1 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_3 .lang2 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_3 .lang3 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_frame .left_frame .left_3 .lin1 {
+    position: relative;
+    width: 217px;
+    height: 3px; 
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 .txt {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_4 .txt1 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_4 .txt2 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_4 .txt3 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_frame .left_frame .left_4 .txt4 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_frame .left_frame .left_4 .txt5 {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_frame .left_frame .left_4 .lin1 {
+    position: relative;
+    width: 217px;
+    height: 3px; 
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
+
+.main_frame .left_frame .left_5 .row {
+    position: relative;
+    width: 94px;
+    height: 22px;
+}
+.main_frame .left_frame .left_5 .row span {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_5 .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_frame .left_frame .left_5 .row1 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_5 .row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_frame .left_frame .left_5 .row2 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_5 .row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_frame .left_frame .left_5 .row3 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_frame .left_frame .left_5 .row4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.main_frame .left_frame .left_5 .row4 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_5 .img {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    right: 15px;
+    background-image: url(./author/icon/Icons.svg);
+}
