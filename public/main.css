@@ -1,3 +1,5 @@
+/*Main frame*/
+
 .frame {
     width: 100%;
     height: 100%;
@@ -14,6 +16,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 2px;
+    background: rgb(240, 240, 246);
 }
 
 .main_frame .left_frame {
@@ -24,7 +27,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background: rgb(255, 255, 255);}
+    background: rgb(255, 255, 255);
+}
 
 .main_frame .middle_frame {
     position: relative;
@@ -43,7 +47,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    background: rgb(255, 255, 255);
 }
+
+/*Left frame*/
+
 
 .main_frame .left_frame .left_1 {
     position: relative;
@@ -53,7 +61,6 @@
     justify-content: space-between;
     width: 228px;
     height: 267px;
-    left: 47px;
     margin-top: 50px;
 }
 
@@ -61,7 +68,6 @@
     position: relative;
     width: 220px;
     height: 0;
-    left: 47px;
     border: 1.5px solid rgb(240, 240, 246);
 }
 
@@ -73,14 +79,12 @@
     justify-content: space-between;
     width: 221px;
     height: 126px;
-    left: 47px;
 }
 
 .main_frame .left_frame .marginer2 {
     position: relative;
     width: 220px;
     height: 0;
-    left: 47px;
     border: 1.5px solid rgb(240, 240, 246);
 }
 
@@ -88,7 +92,6 @@
     position: relative;
     width: 220px;
     height: 153px;
-    left: 47px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;  
@@ -98,7 +101,6 @@
     position: relative;
     width: 220px;
     height: 0;
-    left: 47px;
     border: 1.5px solid rgb(240, 240, 246);
   }
 
@@ -106,7 +108,6 @@
     position: relative;
     width: 220px;
     height: 242px;
-    left: 47px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -116,7 +117,6 @@
     position: relative;
     width: 186px;
     height: 148px;
-    left: 47px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -140,8 +140,8 @@
 .main_frame .left_frame .left_1 .info .text_1 {
     color: rgb(43, 43, 43);
     font-family: Inter;
-    font-size: 18px;
-    font-weight: 550;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 123.6%;
     letter-spacing: 0%;
     text-align: left;
@@ -164,7 +164,7 @@
     height: 22px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .main_frame .left_frame .left_1 .socials .img_1 {
@@ -338,8 +338,45 @@
 
 .main_frame .left_frame .left_3 .lin1 {
     position: relative;
-    width: 217px;
-    height: 3px; 
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
+}
+
+.main_frame .left_frame .left_3 .lin1 .percentage {
+    position: relative;
+    width: 220px;
+    height: 2px;
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_3 .lin2 {
+    position: relative;
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
+}
+
+.main_frame .left_frame .left_3 .lin2 .percentage {
+    position: relative;
+    width: 200px;
+    height: 2px;
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_3 .lin3 {
+    position: relative;
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
+}
+
+.main_frame .left_frame .left_3 .lin3 .percentage {
+    position: relative;
+    width: 180px;
+    height: 2px;
     border-radius: 30px;
     background: rgb(255, 180, 0);
 }
@@ -418,26 +455,88 @@
 
 .main_frame .left_frame .left_4 .lin1 {
     position: relative;
-    width: 217px;
-    height: 3px; 
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
+}
+
+.main_frame .left_frame .left_4 .lin1 .percentage {
+    position: relative;
+    width: 209px;
+    height: 2px;
     border-radius: 30px;
     background: rgb(255, 180, 0);
 }
 
-
-.main_frame .left_frame .left_5 .row {
+.main_frame .left_frame .left_4 .lin2 {
     position: relative;
-    width: 94px;
-    height: 22px;
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
 }
+
+.main_frame .left_frame .left_4 .lin2 .percentage {
+    position: relative;
+    width: 200px;
+    height: 2px;
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 .lin3 {
+    position: relative;
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
+}
+
+.main_frame .left_frame .left_4 .lin3 .percentage {
+    position: relative;
+    width: 190px;
+    height: 2px;
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 .lin4 {
+    position: relative;
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
+}
+
+.main_frame .left_frame .left_4 .lin4 .percentage {
+    position: relative;
+    width: 180px;
+    height: 2px;
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 .lin5 {
+    position: relative;
+    width: 220px;
+    border: 0.5px solid rgb(255, 180, 0);
+    border-radius: 30px;
+}
+
+.main_frame .left_frame .left_4 .lin5 .percentage {
+    position: relative;
+    width: 170px;
+    height: 2px;
+    border-radius: 30px;
+    background: rgb(255, 180, 0);
+}
+
 .main_frame .left_frame .left_5 .row span {
+    width: 100px;
+    height: 22px;
     color: rgb(43, 43, 43);
     font-family: Inter;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 650;
     line-height: 123.6%;
     letter-spacing: 0%;
-    text-align: left;
     text-transform: capitalize;
 }
 .main_frame .left_frame .left_5 .row1 {
@@ -505,4 +604,548 @@
     height: 15px;
     right: 15px;
     background-image: url(./author/icon/Icons.svg);
+}
+
+/*Middle frame*/
+
+.frame .main_frame .middle_frame .above {
+    position: relative;
+    width: 971px;
+    height: 470px;
+    background-color: white;
+    top: -15px;
+    left: -15px;
+}
+
+.frame .main_frame .middle_frame .above .part1 {
+    position: relative;
+    width: 430px;
+    height: 116.74px;
+    left: 74px;
+    right: 397px;
+    top: 87px;
+    bottom: 250.43px;
+    
+}
+
+.frame .main_frame .middle_frame .above .part1 span {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.frame .main_frame .middle_frame .above .part2 {
+    position: relative;
+    width: 424.44px;
+    height: 85.61px;
+    left: 74px;
+    right: 397px;
+    top: 100px;
+    bottom: 147.72px;
+}
+
+.frame .main_frame .middle_frame .above .part2 span {
+    width: 424.44px;
+    height: 85.61px;
+    top: 233px;
+    left: 61px;
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.frame .main_frame .middle_frame .above button {
+    position: relative;
+    width: 154px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10;
+    padding: 16px 32px 16px 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    top: 130px;
+    left: 74px;
+    bottom: 74px;
+    right: 742px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgb(255, 180, 0);
+}
+.frame .main_frame .middle_frame .above button span {
+    top: 233px;
+    left: 61px;
+    color: black;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .above button .img {
+    position: relative;
+    width: 10.60px;
+    height: 10px;
+    background-image: url(./author/icon/Vector\ \(2\).svg);
+    box-sizing: border-box;
+}
+.frame .main_frame .middle_frame .above .image {
+    position: relative;
+    width: 326.06px;
+    height: 446.63px;
+    left: 601.3px;
+    right: 43px;
+    top: -250px;    
+    background-image: url(./author/box_images/Your\ Image\ 1.svg);
+}
+
+.frame .main_frame .middle_frame .above .dot1 {
+    position: absolute;
+    width: 16.02px;
+    height: 15.57px;
+    left: 54.05px;
+    top: 40.86px;
+    background-image: url(./author/box_images/Ellipse\ 15.svg);
+}
+
+.frame .main_frame .middle_frame .above .dot2 {
+    position: absolute;
+    width: 16px;
+    height: 15.57px;
+    left: 120.1px;
+    top: 422.22px;
+    background-image: url(./author/box_images/Ellipse\ 16.svg);
+}
+.frame .main_frame .middle_frame .above .dot3 {
+    position: absolute;
+    width: 16.02px;
+    height: 15.57px;
+    left: 465px;
+    top: 55px;
+    background-image: url(./author/box_images/Ellipse\ 15.svg);
+}
+.frame .main_frame .middle_frame .above .dot4 {
+    position: absolute;
+    width: 20.93px;
+    height: 20.65px;
+    left: 370px;
+    top: 333.69px;
+    transform: rotate(25.41deg);
+    background-image: url(./author/box_images/Rectangle\ 52.svg);
+}
+.frame .main_frame .middle_frame .above .dot5 {
+    position: absolute;
+    width: 20.93px;
+    height: 20.65px;
+    left: 890px;
+    top: 79.44px;
+    transform: rotate(25.41deg);
+    background-image: url(./author/box_images/Rectangle\ 51.svg);
+
+}
+.frame .main_frame .middle_frame .above .dot6 {
+    position: absolute;
+    width: 14.02px;
+    height: 11.57px;
+    left: 916.96px;
+    top: 427.09px;
+    box-sizing: border-box;
+    background-image: url(./author/box_images/Polygon\ 1.svg);
+}
+.frame .main_frame .middle_frame .above .dot7 {
+    position: absolute;
+    width: 16.02px;
+    height: 15.57px;
+    left: 543.45px;
+    top: 381.33px;
+    background-image: url(./author/box_images/Ellipse\ 13.svg);
+}
+.frame .main_frame .middle_frame .below {
+    position: relative;
+    width: 971px;
+    height: 653px;
+    top: 148px;
+    left: -15px;
+    background: rgb(240, 240, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frame .main_frame .middle_frame .below .below_1 {
+    width: 400px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frame .main_frame .middle_frame .below .below_1 strong {
+    position: relative;
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.frame .main_frame .middle_frame .below .below_1 span {
+    position: relative;
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    top: 15px;
+}
+.frame .main_frame .middle_frame .below .below_2 {
+ width: 970px;
+ height: 475px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;   
+}
+
+.frame .main_frame .middle_frame .below .below_2 .box_1 {
+    width: 310px;
+    height: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_1 .img {
+    width: 68px;
+    height: 68px;
+    background-image: url(./author/box_images/Icons_coding.svg);
+}
+.frame .main_frame .middle_frame .below .below_2 .box_1 strong {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_1 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_2 {
+    width: 310px;
+    height: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_2 .img {
+    width: 76px;
+    height: 74px;
+    background-image: url(./author/box_images/Icons_illustration.svg);
+}
+.frame .main_frame .middle_frame .below .below_2 .box_2 strong {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_2 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_3 {
+    width: 310px;
+    height: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_3 .img {
+    width: 76px;
+    height: 74px;
+    background-image: url(./author/box_images/Icons_Microphone.svg);
+}
+.frame .main_frame .middle_frame .below .below_2 .box_3 strong {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_3 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_4 {
+    width: 310px;
+    height: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_4 .img {
+    width: 76px;
+    height: 74px;
+    background-image: url(./author/box_images/Icons_game-development.svg);
+}
+.frame .main_frame .middle_frame .below .below_2 .box_4 strong {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_4 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_5 {
+    width: 310px;
+    height: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_5 .img {
+    width: 76px;
+    height: 74px;
+    background-image: url(./author/box_images/Icons_Photographer.svg);
+}
+.frame .main_frame .middle_frame .below .below_2 .box_5 strong {
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_5 span {
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_6 {
+    width: 310px;
+    height: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_6 strong {
+    position: relative;
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    top: 20px;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_6 span {
+    width: 260px;
+    height: 78px;
+    color: rgb(118, 118, 118);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.frame .main_frame .middle_frame .below .below_2 .box_6 p {
+    color: rgb(255, 180, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    top: 30px;
+}
+
+/*/ Right frame */
+
+.frame .main_frame .right_frame .vector {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 35%;
+    right: 6.67%;
+    top: 6.67%;
+    bottom: 10%;
+    background-image: url(./author/btn_item/Vector\ \(1\).svg);
+    cursor: pointer;
+}
+
+.frame .main_frame .right_frame .home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 65px;
+    height: 493px;
+
+    top: 254px;
+    bottom: 568px;  
+}
+
+.frame .main_frame .right_frame .home .btn_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.frame .main_frame .right_frame .home .btn_1 .part_1 {
+    width: 65px;
+    height: 33px;
+    border-radius: 2px;
+    background: rgb(43, 43, 43);    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frame .main_frame .right_frame .home .btn_1 .part_1 span {
+    width: 40px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    left: 15px;
+}
+.frame .main_frame .right_frame .home .btn_1 .triangle {
+    position: relative;
+    width: 16px;
+    height: 14px;
+    transform: rotate(180);
+    background-image: url(./author/menu_icon/Polygon\ 1\ \(2\).svg);
+    cursor: pointer;
+
+}
+.frame .main_frame .right_frame .home .btn_2 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(./author/menu_icon/Home.png);
+    cursor: pointer;
+}
+.frame .main_frame .right_frame .home .btn_3 {
+    width: 40px;
+    height: 40px;
+    background-image: url(./author/menu_icon/Service.svg);
+    cursor: pointer;
+}
+.frame .main_frame .right_frame .home .btn_4 {
+    width: 40px;
+    height: 40px;
+    background-image: url(./author/menu_icon/Cv.png);
+    cursor: pointer;
+}
+.frame .main_frame .right_frame .home .btn_5 {
+    width: 40px;
+    height: 40px;
+    background-image: url(./author/menu_icon/Portfolio.png);
+    cursor: pointer;
+}
+.frame .main_frame .right_frame .home .btn_6 {
+    width: 40px;
+    height: 40px;
+    background-image: url(./author/menu_icon/Blog.png);
+    cursor: pointer;
+
+}
+.frame .main_frame .right_frame .home .btn_7 {
+    width: 40px;
+    height: 40px;
+    background-image: url(./author/menu_icon/Contact.png);
+    cursor: pointer;
 }
