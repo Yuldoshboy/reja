@@ -43,9 +43,6 @@ app.get("/author", (req, res) => {
 app.get("/", function (req, res) {
     res.render("xarid");
 });
-app.get("/", function (req, res) {
-    res.render("xarid");
-})
 
 app.get("/hello", function(req, res) {
     res.end(`<h1 style="font-style:italic; background:green">Hello World by Jacob!</h1>`);
