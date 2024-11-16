@@ -123,10 +123,10 @@
     align-items: flex-start;
   }
 
-  .main_frame .left_frame .left_1 .img {
+  .main_frame .left_frame .left_1 img {
     width: 156px;
     height: 142px;
-    background-image: url(./author/box_images/Profile.png);
+    /* background-image: url(./author/box_images/Profile.png); */
 }
 
 .main_frame .left_frame .left_1 .info {
@@ -167,41 +167,10 @@
     justify-content: space-around;
 }
 
-.main_frame .left_frame .left_1 .socials .img_1 {
+.main_frame .left_frame .left_1 .socials .img_1 img {
     position: relative;
-    width: 24.99px;
-    height: 21.61px;
-    background-image: url(./author/box_images/Facebook.svg);
-}
-.main_frame .left_frame .left_1 .socials .img_2 {
-    position: relative;
-    width: 24.99px;
-    height: 21.61px;
-    background-image: url(./author/box_images/Instagram.svg);
-}
-.main_frame .left_frame .left_1 .socials .img_3 {
-    position: relative;
-    width: 24.99px;
-    height: 21.61px;
-    background-image: url(./author/box_images/Linkeding.svg);
-}
-.main_frame .left_frame .left_1 .socials .img_4 {
-    position: relative;
-    width: 24.99px;
-    height: 21.61px;
-    background-image: url(./author/box_images/Twitter.svg);
-}
-.main_frame .left_frame .left_1 .socials .img_5 {
-    position: relative;
-    width: 24.99px;
-    height: 21.61px;
-    background-image: url(./author/box_images/Youtube.svg);
-}
-.main_frame .left_frame .left_1 .socials .img_6 {
-    position: relative;
-    width: 29.99px;
-    height: 21.61px;
-    background-image: url(./author/box_images/Dribbble.svg);
+    width: 29px;
+    height: 24px;
 }
 
 .main_frame .left_frame .left_2 .text1 {
@@ -225,69 +194,6 @@
 .main_frame .left_frame .left_2 .text1 .span1 {
     background: rgb(255, 180, 0);
 }
-.main_frame .left_frame .left_2 .text2 .span2 {
-    background: rgb(255, 180, 0);
-}
-.main_frame .left_frame .left_2 .text3 .span3 {
-    background: rgb(255, 180, 0);
-}
-.main_frame .left_frame .left_2 .text4 .span4 {
-    background: rgb(255, 180, 0);
-}
-.main_frame .left_frame .left_2 .text2 {
-    position: relative;
-    width: 221px;
-    height: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_2 .text2 span {
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.main_frame .left_frame .left_2 .text3 {
-    position: relative;
-    width: 221px;
-    height: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_2 .text3 span {
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.main_frame .left_frame .left_2 .text4 {
-    position: relative;
-    width: 221px;
-    height: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_2 .text4 span {
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
 
 .main_frame .left_frame .left_3 .lang {
     color: rgb(43, 43, 43);
@@ -300,30 +206,6 @@
     text-transform: capitalize;
 }
 .main_frame .left_frame .left_3 .lang1 {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_3 .lang2 {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_3 .lang3 {
     color: rgb(118, 118, 118);
     font-family: Inter;
     font-size: 15px;
@@ -392,55 +274,6 @@
     text-transform: capitalize;
 }
 .main_frame .left_frame .left_4 .txt1 {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_4 .txt2 {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_4 .txt3 {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.main_frame .left_frame .left_4 .txt4 {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main_frame .left_frame .left_4 .txt5 {
     color: rgb(118, 118, 118);
     font-family: Inter;
     font-size: 15px;
@@ -554,56 +387,12 @@
     text-align: left;
     text-transform: capitalize;
 }
-.main_frame .left_frame .left_5 .row2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.main_frame .left_frame .left_5 .row2 span {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.main_frame .left_frame .left_5 .row3 {
-    display: flex;
-    flex-direction: row;
-}
-
-.main_frame .left_frame .left_5 .row3 span {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.main_frame .left_frame .left_5 .row4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.main_frame .left_frame .left_5 .row4 span {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
 
 .main_frame .left_frame .left_5 .img {
     position: relative;
     width: 15px;
     height: 15px;
     right: 15px;
-    background-image: url(./author/icon/Icons.svg);
 }
 
 /*Middle frame*/
@@ -706,7 +495,9 @@
     position: relative;
     width: 10.60px;
     height: 10px;
-    background-image: url(./author/icon/Vector\ \(2\).svg);
+    align-items: center;
+    margin-bottom: 18px;
+    /* background-image: url(./author/icon/Vector\ \(2\).svg); */
     box-sizing: border-box;
 }
 .frame .main_frame .middle_frame .above .image {
@@ -716,7 +507,7 @@
     left: 601.3px;
     right: 43px;
     top: -250px;    
-    background-image: url(./author/box_images/Your\ Image\ 1.svg);
+    /* background-image: url(./author/box_images/Your\ Image\ 1.svg); */
 }
 
 .frame .main_frame .middle_frame .above .dot1 {
@@ -725,7 +516,7 @@
     height: 15.57px;
     left: 54.05px;
     top: 40.86px;
-    background-image: url(./author/box_images/Ellipse\ 15.svg);
+    /* background-image: url(./author/box_images/Ellipse\ 15.svg); */
 }
 
 .frame .main_frame .middle_frame .above .dot2 {
@@ -734,7 +525,7 @@
     height: 15.57px;
     left: 120.1px;
     top: 422.22px;
-    background-image: url(./author/box_images/Ellipse\ 16.svg);
+    /* background-image: url(./author/box_images/Ellipse\ 16.svg); */
 }
 .frame .main_frame .middle_frame .above .dot3 {
     position: absolute;
@@ -742,7 +533,7 @@
     height: 15.57px;
     left: 465px;
     top: 55px;
-    background-image: url(./author/box_images/Ellipse\ 15.svg);
+    /* background-image: url(./author/box_images/Ellipse\ 15.svg); */
 }
 .frame .main_frame .middle_frame .above .dot4 {
     position: absolute;
@@ -751,7 +542,7 @@
     left: 370px;
     top: 333.69px;
     transform: rotate(25.41deg);
-    background-image: url(./author/box_images/Rectangle\ 52.svg);
+    /* background-image: url(./author/box_images/Rectangle\ 52.svg); */
 }
 .frame .main_frame .middle_frame .above .dot5 {
     position: absolute;
@@ -760,7 +551,7 @@
     left: 890px;
     top: 79.44px;
     transform: rotate(25.41deg);
-    background-image: url(./author/box_images/Rectangle\ 51.svg);
+    /* background-image: url(./author/box_images/Rectangle\ 51.svg); */
 
 }
 .frame .main_frame .middle_frame .above .dot6 {
@@ -770,7 +561,7 @@
     left: 916.96px;
     top: 427.09px;
     box-sizing: border-box;
-    background-image: url(./author/box_images/Polygon\ 1.svg);
+    /* background-image: url(./author/box_images/Polygon\ 1.svg); */
 }
 .frame .main_frame .middle_frame .above .dot7 {
     position: absolute;
@@ -778,7 +569,7 @@
     height: 15.57px;
     left: 543.45px;
     top: 381.33px;
-    background-image: url(./author/box_images/Ellipse\ 13.svg);
+    /* background-image: url(./author/box_images/Ellipse\ 13.svg); */
 }
 .frame .main_frame .middle_frame .below {
     position: relative;
@@ -869,176 +660,8 @@
     text-align: center;
     text-transform: capitalize;
 }
-.frame .main_frame .middle_frame .below .below_2 .box_2 {
-    width: 310px;
-    height: 225px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_2 .img {
-    width: 76px;
-    height: 74px;
-    background-image: url(./author/box_images/Icons_illustration.svg);
-}
-.frame .main_frame .middle_frame .below .below_2 .box_2 strong {
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 550;
-    line-height: 123.6%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_2 span {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_3 {
-    width: 310px;
-    height: 225px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_3 .img {
-    width: 76px;
-    height: 74px;
-    background-image: url(./author/box_images/Icons_Microphone.svg);
-}
-.frame .main_frame .middle_frame .below .below_2 .box_3 strong {
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 550;
-    line-height: 123.6%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_3 span {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_4 {
-    width: 310px;
-    height: 225px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_4 .img {
-    width: 76px;
-    height: 74px;
-    background-image: url(./author/box_images/Icons_game-development.svg);
-}
-.frame .main_frame .middle_frame .below .below_2 .box_4 strong {
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 550;
-    line-height: 123.6%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_4 span {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_5 {
-    width: 310px;
-    height: 225px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_5 .img {
-    width: 76px;
-    height: 74px;
-    background-image: url(./author/box_images/Icons_Photographer.svg);
-}
-.frame .main_frame .middle_frame .below .below_2 .box_5 strong {
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 550;
-    line-height: 123.6%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_5 span {
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_6 {
-    width: 310px;
-    height: 225px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_6 strong {
-    position: relative;
-    color: rgb(43, 43, 43);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 550;
-    line-height: 123.6%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    top: 20px;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_6 span {
-    width: 260px;
-    height: 78px;
-    color: rgb(118, 118, 118);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: capitalize;
-}
-.frame .main_frame .middle_frame .below .below_2 .box_6 p {
+
+.frame .main_frame .middle_frame .below .below_2 .box_1 p {
     color: rgb(255, 180, 0);
     font-family: Roboto;
     font-size: 14px;
