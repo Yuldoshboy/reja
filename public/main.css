@@ -124,6 +124,13 @@
     align-items: flex-start;
 }
 
+.main_frame .left_frame .marginer5 {
+    position: relative;
+    width: 220px;
+    height: 0;
+    border: 1.5px solid rgb(240, 240, 246);
+}
+
 .main_frame .left_frame .left_1 img {
     width: 156px;
     height: 142px;
