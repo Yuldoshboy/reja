@@ -2,14 +2,15 @@
 /*Shunday 2 parametrli function tuzing, hamda birinchi parametrdagi letterni ikkinchi parametrdagi sozdan qatnashga sonini return qilishi kerak boladi.
 MASALAN countLetter("e", "engineer") 3ni return qiladi.*/
 function task_A(a, b) {
-    let count = 0;    
+    let n = 0;    
     for (let ele of b) {
         if (ele === a) {
-            count++;
+            n++;
         }
     }    
-    return count;
+    return n;    
 }
+
 console.log(task_A("m", "memorable"));
 
 
@@ -141,4 +142,3 @@ async function run() {
     console.log(javob);
 };
 run();
-
