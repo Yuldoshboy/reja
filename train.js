@@ -3,8 +3,8 @@
 MASALAN countLetter("e", "engineer") 3ni return qiladi.*/
 function task_A(a, b) {
     let count = 0;    
-    for (let letter of b) {
-        if (letter === a) {
+    for (let ele of b) {
+        if (ele === a) {
             count++;
         }
     }    
