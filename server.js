@@ -57,4 +57,3 @@ server.listen(PORT, function () {
 });
 
 /// BSSR--- Backend Server Site Rendering----Backendda HTMLni qurib olish
-
