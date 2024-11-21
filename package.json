@@ -7,6 +7,7 @@
     "start": "nodemon server.js",
     "train": "nodemon train.js",
     "dev": "nodemon server.js",
+    "tasks": "nodemon tasks.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jacob",

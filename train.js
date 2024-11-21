@@ -1,18 +1,19 @@
 // TASK-A
 /*Shunday 2 parametrli function tuzing, hamda birinchi parametrdagi letterni ikkinchi parametrdagi sozdan qatnashga sonini return qilishi kerak boladi.
 MASALAN countLetter("e", "engineer") 3ni return qiladi.*/
-function task_A(a, b) {
-    let n = 0;    
-    for (let ele of b) {
-        if (ele === a) {
-            n++;
-        }
-    }    
-    return n;    
-}
+function task_b(string) {
+    let m = 0;
+    const a = string.split("");
+    a.forEach(raqamlar => {
+        if(Number(raqamlar)>=0) {
+            m++;
+        };
+    });
+    return m;
+};
 
-console.log(task_A("m", "memorable"));
-
+const result = task_b("gdghd99u7hn");
+console.log("Result:", result);
 
 /// LESSON
 
@@ -75,7 +76,6 @@ maslahatBering(67, (err, data) => {
 });
 
 console.log('The result has been displayed after 5 seconds according to the time setted by setTimeout');
-
 
 // Asynchronous functions
 

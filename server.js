@@ -41,7 +41,7 @@ app.get("/author", (req, res) => {
     res.render("author", {user: user});
 });
 app.get("/", function (req, res) {
-    res.render("xarid");
+    res.render("reja");
 });
 
 app.get("/hello", function(req, res) {
@@ -53,7 +53,7 @@ app.get("/gift", function(req, res) {
 const server = http.createServer(app);
 let PORT = 3000;
 server.listen(PORT, function () {
-    console.log(`Server is successfully run on the port: ${PORT}`);
+    console.log(`Server is successfully run on the port: ${PORT}, http://localhost:${PORT}`);
 });
 
 /// BSSR--- Backend Server Site Rendering----Backendda HTMLni qurib olish
