@@ -36,6 +36,7 @@ app.set("view engine", "ejs");
 
 // 4-bosqich-----Routing code
 app.post("/create-item", (req, res) => {
+    console.log("user entered /create-item")
     console.log(req.body);
     const new_reja = req.body.reja;
     db.collection("plans").insertOne({reja: new_reja}, (err, data)=> {
@@ -50,6 +51,7 @@ app.get("/author", (req, res) => {
     res.render("author", {user: user});
 });
 app.get("/", function (req, res) {
+    console.log("User entered /");
     db.collection("plans")
         .find()
             .toArray((err, data) => {
