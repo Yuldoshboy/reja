@@ -15,8 +15,9 @@ fs.readFile("database/user.json", "utf8", (err, data)  => {
 });
 
 // Mongo DB connect
+const mongodb = require("mongodb");
 
-const db = require("./server").db();        /// databasedagi malumotlarni tahrirlash uchun
+const fb = require("./server").db();        /// databasedagi malumotlarni tahrirlash uchun
 
 //Bosqichlar
 // 1-bosqich-----------KIRISH KODLARI----Expressga kirib kelayotgna malumotlarga bogliq bulgan kodlar yoziladi.
@@ -36,23 +37,30 @@ app.set("view engine", "ejs");
 
 // 4-bosqich-----Routing code
 app.post("/create-item", (req, res) => {
-    console.log("user entered /create-item")
-    console.log(req.body);
+    console.log("user entered /create-item");
     const new_reja = req.body.reja;
-    db.collection("plans").insertOne({reja: new_reja}, (err, data)=> {
-        if(err) {
-            console.log("Something went wrong!");
-        } else {
-            res.end("Succesfully added!");
-        }
-    })
+    fb.collection("plans").insertOne({reja: new_reja}, (err, data) => {
+        res.json(data.ops[0]);
+    });
 });
+
+app.post("/delete-item", (req, res) => {
+    const id = req.body.id;
+    fb.collection("plans").deleteOne(
+        { _id: new mongodb.ObjectId(id) }, 
+        function (err, data) {
+            res.json({ state: "success" });
+        }
+    );
+});
+
 app.get("/author", (req, res) => {
     res.render("author", {user: user});
 });
+
 app.get("/", function (req, res) {
     console.log("User entered /");
-    db.collection("plans")
+    fb.collection("plans")
         .find()
             .toArray((err, data) => {
                 if (err) {
