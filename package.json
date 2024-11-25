@@ -9,6 +9,7 @@
     "dev": "nodemon server.js",
     "tasks": "nodemon tasks.js",
     "app": "nodemon app.js",
+    "browser": "nodemon browser.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jacob",
