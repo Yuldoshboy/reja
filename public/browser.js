@@ -44,12 +44,15 @@ document.addEventListener("click", (e) => {
         .then((response) => {
           console.log(response.data);
           e.target.parentElement.parentElement.remove();
+          alert("Successfully deleted!");
         })
         .catch((err) => {
-          console.log("Please try again!");
-        });
+          console.log("Please try again!");         
+        });    
     }
-    alert("Item has succesfully deleted!");
+    else {
+        alert("You rejected the deletion of the item(s)!")
+      }
   }
 
   if (e.target.classList.contains("edit-me")) {
@@ -76,7 +79,7 @@ document.addEventListener("click", (e) => {
 
 document.getElementById("clean-all").addEventListener("click", function () {
   axios.post("/delete-all", { delete_all: true }).then(response => {
-    alert("Are you sure to delete all items on the list?");
+    confirm("Are you sure to delete all items on the list?");
     document.location.reload();
   })
 })
