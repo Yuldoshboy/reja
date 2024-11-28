@@ -10,11 +10,13 @@ function findString(word1, word2) {
   console.log(arr);
   console.log(arr1);
   
-  const result = arr.length === arr1.length && arr.every((ele, index) => ele === arr1[index]);
+  const result = arr.length === arr1.length && arr1.every((index, ele) => index === arr[ele]);
   console.log(`Are the letters of "${word1}" and "${word2}" are the same?`, result);
 }
 
 findString("uzbekistan", "tanuzbkise"); 
+
+findString("uzbekistan", "tanuzbkise");
 
 
 
@@ -25,47 +27,46 @@ findString("uzbekistan", "tanuzbkise");
 
 // @MITASK
 
-class Shop {
-  //state
-  bread;
-  wheat;
-  cola;
-  time;
+// class Shop {
+//   //state
+//   bread;
+//   wheat;
+//   cola;
+//   time;
 
-  //constructor
-  constructor(bread, wheat, cola, time) {
-    this.bread = bread;
-    this.wheat = wheat;
-    this.cola = cola;
-    this.time == time;
-  }
+//   //constructor
+//   constructor(bread, wheat, cola, time) {
+//     this.bread = bread;
+//     this.wheat = wheat;
+//     this.cola = cola;
+//     this.time == time;
+//   }
 
-  shop_qoldiq() {
-    const now = new Date();
-    console.log(
-      `Available products in the store at ${now.toLocaleString()}: Bread-${
-        this.bread
-      } loave(s); Wheat-${this.wheat} bag(s); cola-${this.cola} bottle(s)`
-    );
-  }
+//   shop_qoldiq() {
+//     const now = new Date();
+//     console.log(
+//       `Available products in the store at ${now.toLocaleString()}: Bread-${this.bread
+//       } loave(s); Wheat-${this.wheat} bag(s); cola-${this.cola} bottle(s)`
+//     );
+//   }
 
-  shop_sotish(amount) {
-    this.bread -= amount;
-  }
+//   shop_sotish(amount) {
+//     this.bread -= amount;
+//   }
 
-  shop_qabul(qabul) {
-    this.cola += qabul;
-  }
-}
+//   shop_qabul(qabul) {
+//     this.cola += qabul;
+//   }
+// }
 
-const result = new Shop(4, 5, 5);
-result.shop_qoldiq();
-console.log("=========================");
-result.shop_sotish(3);
-result.shop_qoldiq();
-console.log("=========================");
-result.shop_qabul(4);
-result.shop_qoldiq();
+// const result = new Shop(4, 5, 5);
+// result.shop_qoldiq();
+// console.log("=========================");
+// result.shop_sotish(3);
+// result.shop_qoldiq();
+// console.log("=========================");
+// result.shop_qabul(4);
+// result.shop_qoldiq();
 
 //   // B-TASK:
 

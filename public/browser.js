@@ -1,6 +1,3 @@
-// const {default: axios} = require("axios");
-// const { response } = require("../app");
-
 function itemTemp(item) {
   return `<li 
     class="list-group-item list list-group-item-info d-flex align-items-center justify-content-between">
@@ -76,3 +73,10 @@ document.addEventListener("click", (e) => {
     }
   }
 });
+
+document.getElementById("clean-all").addEventListener("click", function () {
+  axios.post("/delete-all", { delete_all: true }).then(response => {
+    alert("Are you sure to delete all items on the list?");
+    document.location.reload();
+  })
+})
