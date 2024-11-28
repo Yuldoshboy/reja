@@ -40,6 +40,7 @@ app.post("/create-item", (req, res) => {
   console.log("user entered /create-item");
   const new_reja = req.body.reja;
   fb.collection("plans").insertOne({ reja: new_reja }, (err, data) => {
+    console.log(data.ops);
     res.json(data.ops[0]);
   });
 });

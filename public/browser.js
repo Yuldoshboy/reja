@@ -41,7 +41,7 @@ document.getElementById("create-form").addEventListener("submit", (e) => {
 document.addEventListener("click", (e) => {
   console.log(e.target);
   if (e.target.classList.contains("delete-me")) {
-    if (confirm("Aniq o'chirmoqchimisiz?")) {
+    if (confirm("Are you sure to delete this item?")) {
       axios
         .post("/delete-item", { id: e.target.getAttribute("data-id") })
         .then((response) => {
@@ -52,7 +52,7 @@ document.addEventListener("click", (e) => {
           console.log("Please try again!");
         });
     }
-    alert("Siz delete tugmasini bosdinggiz!");
+    alert("Item has succesfully deleted!");
   }
   if (e.target.classList.contains("edit-me")) {
     alert("Siz edit tugmasini bosdinggiz!");
