@@ -16,7 +16,7 @@ function findString(word1, word2) {
 
 findString("uzbekistan", "tanuzbkise"); 
 
-findString("uzbekistan", "tanuzbkise");
+findString("mitgroup", "gropumi");
 
 
 
