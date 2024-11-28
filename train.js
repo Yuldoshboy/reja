@@ -1,3 +1,23 @@
+// D-TASK: 
+
+// Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
+// MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
+
+function findString(word1, word2) {
+  let arr = word1.split("").sort();
+  let arr1 = word2.split("").sort();
+  
+  console.log(arr);
+  console.log(arr1);
+  
+  const result = arr.length === arr1.length && arr.every((ele, index) => ele === arr1[index]);
+  console.log(`Are the letters of "${word1}" and "${word2}" are the same?`, result);
+}
+
+findString("uzbekistan", "tanuzbkise"); 
+
+
+
 // MITASK-C
 
 // Shunday class tuzing tuzing nomi Shop, va uni constructoriga 3 hil mahsulot pass bolsin, hamda classning 3ta methodi bolsin, biri qoldiq, biri sotish va biri qabul. Har bir method ishga tushgan vaqt ham log qilinsin.
