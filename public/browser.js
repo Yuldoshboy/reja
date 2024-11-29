@@ -47,18 +47,19 @@ document.addEventListener("click", (e) => {
           alert("Successfully deleted!");
         })
         .catch((err) => {
-          console.log("Please try again!");         
-        });    
+          console.log("Please try again!");
+        });
+    } else {
+      alert("You rejected the deletion of the item(s)!");
     }
-    else {
-        alert("You rejected the deletion of the item(s)!")
-      }
   }
 
   if (e.target.classList.contains("edit-me")) {
-    let userInput = prompt("O'zgartirish kiriting",
+    let userInput = prompt(
+      "O'zgartirish kiriting",
       e.target.parentElement.parentElement.querySelector(".item-text").innerHTML
     );
+    console.log("STEP-1: FRONTEND ishga tushdi!");
     if (userInput) {
       axios
         .post("/edit-item", {
@@ -66,20 +67,22 @@ document.addEventListener("click", (e) => {
           new_input: userInput,
         })
         .then((response) => {
+          console.log("STEP-6: BACKENDdan malumot FRONTENDga yetib keldi!");
           console.log(response.data);
-          e.target.parentElement.parentElement.querySelector(".item-text").innerHTML = userInput;
+          e.target.parentElement.parentElement.querySelector(
+            ".item-text"
+          ).innerHTML = userInput;
         })
         .catch((err) => {
-          console.log("Error. Please try again!")
-        })
-
+          console.log("Error. Please try again!");
+        });
     }
   }
 });
 
 document.getElementById("clean-all").addEventListener("click", function () {
-  axios.post("/delete-all", { delete_all: true }).then(response => {
+  axios.post("/delete-all", { delete_all: true }).then((response) => {
     confirm("Are you sure to delete all items on the list?");
     document.location.reload();
-  })
-})
+  });
+});

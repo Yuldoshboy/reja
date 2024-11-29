@@ -57,18 +57,24 @@ app.post("/delete-item", (req, res) => {
 app.post("/delete-all", (req, res) => {
   if (req.body.delete_all) {
     db.collection("plans").deleteMany(function () {
-      res.json({ state: "All items have been delated!" })
-    })
+      res.json({ state: "All items have been delated!" });
+    });
   }
-})
+});
 
 app.post("/edit-item", (req, res) => {
+  console.log("STEP-2: FRONTENDdan BACKENDga malumot yetib keldi!");
   const data = req.body;
   console.log(data);
+  console.log(
+    "STEP-3: BACKENDdan DBga borib malumotni qayta yozish jarayoni boshlandi!"
+  );
   db.collection("plans").findOneAndUpdate(
     { _id: new mongodb.ObjectId(data.id) },
     { $set: { reja: data.new_input } },
+    console.log("STEP-4: DBda malumot yozildi va BACKENDga qaytib keldi!"),
     function (err, data) {
+      console.log("STEP-5: BACKENDdan FRONTENDga malumot chiqib ketdi!");
       res.json({ state: "success" });
     }
   );
