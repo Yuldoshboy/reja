@@ -1,18 +1,36 @@
+// E-TASK: 
+
+// Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
+// MASALAN: getReverse("hello") return qilsin "olleh"
+
+
+function teskari(word) {
+  let word1 = word.split("");
+  let word2 = word1.reverse(); 
+  let reversedWord = word2.join(""); 
+
+  return reversedWord;
+}
+
+const result = teskari("albattakelajakbuyuk");
+console.log("Result:", result);
+
+
 // D-TASK: 
 
 // Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
 // MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
 
-function findString(word1, word2) {
-  let arr = word1.split("").sort();
-  let arr1 = word2.split("").sort();
+// function findString(word1, word2) {
+//   let arr = word1.split("").sort();
+//   let arr1 = word2.split("").sort();
   
-  console.log(arr);
-  console.log(arr1);
+//   console.log(arr);
+//   console.log(arr1);
   
-  const result = arr.length === arr1.length && arr1.every((index, ele) => index === arr[ele]);
-  console.log(`Are the letters of "${word1}" and "${word2}" are the same?`, result);
-}
+//   const result = arr.length === arr1.length && arr1.every((index, ele) => index === arr[ele]);
+//   console.log(`Are the letters of "${word1}" and "${word2}" are the same?`, result);
+// }
 
 findString("uzbekistan", "tanuzbkise"); 
 
