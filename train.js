@@ -1,22 +1,43 @@
+// TASK F
+// Yagona string argumentga ega findDoublers nomli function tuzing
+// Agar stringda bittadan ortiq bir xil harflar ishtirok etgan bo'lsa
+// true yokida false natija qaytarsin.
+// MASALAN: findDoublers("hello"); natija true qaytadi. Sababi ikki marotaba takrorlangan 'll' harfi mavjud!
+
+function doubleCharacter(word) {
+  let list = [];
+  for (let char of word.toLowerCase()) {
+      if (list.includes(char)) {
+          return true;
+      }
+      list.push(char);
+  }
+  return false;
+}
+
+const result = doubleCharacter("nimadir");
+console.log("Result:", result);
+
+
 // D-TASK: 
 
 // Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
 // MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
 
-function findString(word1, word2) {
-  let arr = word1.split("").sort();
-  let arr1 = word2.split("").sort();
+// function findString(word1, word2) {
+//   let arr = word1.split("").sort();
+//   let arr1 = word2.split("").sort();
   
-  console.log(arr);
-  console.log(arr1);
+//   console.log(arr);
+//   console.log(arr1);
   
-  const result = arr.length === arr1.length && arr1.every((index, ele) => index === arr[ele]);
-  console.log(`Are the letters of "${word1}" and "${word2}" are the same?`, result);
-}
+//   const result = arr.length === arr1.length && arr1.every((index, ele) => index === arr[ele]);
+//   console.log(`Are the letters of "${word1}" and "${word2}" are the same?`, result);
+// }
 
-findString("uzbekistan", "tanuzbkise"); 
+// findString("uzbekistan", "tanuzbkise"); 
 
-findString("mitgroup", "gropumi");
+// findString("mitgroup", "gropumi");
 
 
 
