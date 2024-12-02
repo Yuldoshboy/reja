@@ -16,7 +16,24 @@ function doubleCharacter(word) {
 }
 
 const result = doubleCharacter("nimadir");
-console.log("Result:", result);
+
+// E-TASK: 
+
+// Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
+// MASALAN: getReverse("hello") return qilsin "olleh"
+
+
+// function teskari(word) {
+//   let word1 = word.split("");
+//   let word2 = word1.reverse(); 
+//   let reversedWord = word2.join(""); 
+
+//   return reversedWord;
+// }
+
+// const result = teskari("albattakelajakbuyuk");
+// >>>>>>> refs/remotes/origin/master
+// console.log("Result:", result);
 
 
 // D-TASK: 
